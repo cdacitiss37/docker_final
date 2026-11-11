@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:21-jdk
 WORKDIR /ravi 
 COPY . .
 RUN javac demo.java
